@@ -17,7 +17,7 @@
 /* Mobiles (width ≤ 600px) */
 @media screen and (max-width: 600px) {
   .card-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .container .title h2 {
