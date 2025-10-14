@@ -1,7 +1,36 @@
-@media screen and (max-width: 600px) {
- .card-container{
-    margin-top: 10px;
-    display: grid;
+/* Tablets (width ≤ 900px) */
+@media screen and (max-width: 900px) {
+  .card-container {
     grid-template-columns: repeat(2, 1fr);
- }
+  }
+
+  .container .title h2 {
+    font-size: 24px;
+  }
+
+  .card img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+/* Mobiles (width ≤ 600px) */
+@media screen and (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .container .title h2 {
+    font-size: 20px;
+  }
+
+  .card img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .card ul li {
+    padding: 0 10px;
+    font-size: 14px;
+  }
 }
