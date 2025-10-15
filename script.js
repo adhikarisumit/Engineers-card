@@ -13,11 +13,11 @@ function getUser() {
                 card.innerHTML=`
                 <img src="${data.avatar_url}" alt="${data.login}" class="image">
                 <ul>
-                    <li class="">Username:${data.login}</li>
-                    <li class="id">ID:${data.id}</li>
-                    <li class="location">Location:${data.location}</li>
-                    <li class="followers">Followers:${data.followers}</li>
-                    <li class="following">Following:${data.following}</li>
+                    <li class="">Username: ${data.login}</li>
+                    <li class="id">ID: ${data.id}</li>
+                    <li class="location">Location: ${data.location}</li>
+                    <li class="followers">Followers: ${data.followers}</li>
+                    <li class="following">Following: ${data.following}</li>
                 </ul>
                 `
                 container.appendChild(card)
